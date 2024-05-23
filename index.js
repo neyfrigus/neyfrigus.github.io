@@ -81,7 +81,6 @@ function updateClock() {
     document.getElementById("clock").textContent = currentTime;
 
     if (currentTime == alarmTime) {
-        sound.volume(1);
         sound.play();
     }
 
