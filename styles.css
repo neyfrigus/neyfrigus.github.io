@@ -1,0 +1,120 @@
+/* body {
+    background-image: url(chicken\ chan\ 2.png);
+    background-position: center;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6.5rem;
+
+}
+
+h2 {
+    text-align: center;
+
+
+}
+
+#setButton {
+    margin: auto;
+}
+
+#clearButton {
+    float: center;
+    justify-content: center;
+    margin-top: 10px;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding-top: 50px;
+}
+
+
+
+body {
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: url('chicken\ chan\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock {
+    height: 120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+
+
+}
+
+#alarm-container {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+}
+
+
+label {
+    display: inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px;
+    margin-left: 501px; */
+}
+
+#clearButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-top: 10px;
+    margin-left: 500px; */
+}
+
+#reminder-container {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+}

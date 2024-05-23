@@ -1,1 +1,57 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alarm Page</title>
+    <link rel="SHORTCUT ICON" href="D:/Bag/Imagens/Jogos/WoW/Icons/spell_nature_lightning.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <audio id="beep" src="https://cdn.pixabay.com/audio/2022/10/30/audio_4fa75b6720.mp3" preload="auto"></audio> -->
+</head>
+
+<body>
+    <div id="clock-container">
+        <div id="clock">00:00:00</div>
+    </div>
+
+    <div id="reminder-container">
+        <div id="reminder">00:00:00</div>
+    </div>
+
+    <div id='alarm-container'>
+        <h3>Set Alarm Time</h3>
+        <label>
+            <div>
+                <select id='alarmhrs'></select>
+            </div>
+        </label>
+        <label>
+            <div>
+                <select id='alarmmins'></select>
+            </div>
+        </label>
+        <label>
+            <div>
+                <select id='alarmsecs'></select>
+            </div>
+        </label>
+        <label>
+        </label>
+    </div>
+    </div>
+
+    <div id='buttonHolder'>
+        <div>
+            <button id='setButton' onClick='alarmSet()'>-Set-</button>
+        </div>
+
+        <div>
+            <button id='clearButton' onClick='alarmClear()'>Clear</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
