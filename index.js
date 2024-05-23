@@ -4,7 +4,7 @@ function quarter() {
 
 //wAIfu sound
 
-let sound = new Audio('/D:/Bag/Documentos/Programming/js/neyfrigus.github.io/button.mp3');
+let sound = new Audio('https://github.com/neyfrigus/neyfrigus.github.io/blob/main/button.mp3');
 let alarmTime = "0";
 
 //populate the alarm 
